@@ -1,0 +1,75 @@
+* {
+    background-image: url(/chiTietMatHang/img_chitiet/bau-troi-xanh-may-trang.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#header span {
+    color: red;
+    font-size: 24px;
+    font-weight: 550;
+    border-bottom: 5px solid rgb(0, 189, 246);
+}
+
+.tt_phim {
+    text-align: center;
+}
+
+.tt_phim p {
+    font-size: 16px;
+    font-weight: 550;
+    padding-top: 40px;
+    color: black;
+}
+
+maudo {
+    color: red;
+}
+
+.thongtin_text {
+
+}
+
+.thongtin_text p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 17px;
+    color: black;
+}
+
+.muangay {
+    text-align: center;
+}
+
+.muangay span {
+    color: black;
+    font-size: 29px;
+    font-weight: 600;
+}
+
+giamgia {
+    padding-left: 8px;
+    color: red;
+}
+
+.muangay-bt {
+    margin-bottom: 11px;
+    width: 126px;
+    height: 40px;
+    margin-left: 23px;
+}
+
+.anhthongtin {
+    width: 100%;
+}
+
+.anhthongtin:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}

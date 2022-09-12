@@ -1,0 +1,94 @@
+:root{
+    --primary-color:rgb(238,75,43);
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+    --blue-color:rgba(0, 234, 251, 0.4);
+    --border-color:#dbdbdb;
+
+    --header-height: 120px;
+    --navbar-height: 48px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height))
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid_full-width {
+   width: 100%; 
+}
+
+.grid__gow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes growth {
+    from {
+        transform: scale(var(--growth-from));
+    }
+    to {
+        transform: scale(var(--growth-to));
+    }
+}
+
+/* Button style */
+.btn {
+    min-width: 142px;
+    height: 36px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2.5px;
+    font-size: 1.2rem;
+    padding: 0 12px;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn.btn--normal:hover {
+    background-color: rgb(167, 236, 236);
+}
+
+.btn.btn--size-s {
+    height: 32px;
+    font-size: 12px;
+    padding: 0 8px;
+}
+
+.btn.btn--primary {
+    color: var(--white-color);
+    background-color: var(--primary-color);    
+}
+
+.btn.btn--disabled {
+    cursor: default;
+}
+

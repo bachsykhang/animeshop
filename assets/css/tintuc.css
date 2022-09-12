@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.tieude_big h3 {
+    color: red;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 550;
+    margin-top: 40px;
+}
+
+.news_content p {
+    margin: 0 auto;
+    max-width: 787px;
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.img_content {
+    text-align: center;
+}
+
+.img_content img {
+    max-width: 100%;
+    margin-top: 25px;
+}
+
+.text_content {
+    margin: 0 auto;
+    max-width: 787px;
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #333;
+}
+
+.innghieng {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.nguoidangbai {
+    width: 82%;
+    text-align: end;
+    padding-bottom: 30px;
+}
